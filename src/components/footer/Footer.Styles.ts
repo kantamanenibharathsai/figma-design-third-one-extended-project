@@ -37,26 +37,32 @@ const Styles = {
     width: "100%",
     height: 45,
     bgcolor: "#C9EDFB",
-    border: "none",
+    // border: "none",
     borderRadius: 30,
     marginTop: "20px",
     fontSize: 15,
     paddingLeft: 2,
     position: "absolute",
+    marginRight: "50px",
   },
+
+  telegramIconContainer : {
+      ml: "30px"
+  },
+
   arrow: {
     fontSize: 20,
     fontWeight: 800,
     position: "absolute",
     top: 24,
-    right: -17,
+    right: -48,
     height: 35,
     width: 35,
     padding: 0.5,
     borderRadius: 20,
-
     bgcolor: "#01C2FE",
     color: " black",
+    ml: "30px"
   },
 
   list_header_contact: {
