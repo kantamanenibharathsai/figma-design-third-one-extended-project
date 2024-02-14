@@ -96,7 +96,7 @@ const Footer = () => {
                 </ListSubheader>
               }
             >
-              <ListItem sx={{ ...Styles.list_item }}>
+              <ListItem sx={{ ...Styles.list_item,  }}>
                 <Box sx={Styles.input_box}>
                   <Box
                     component={"input"}
@@ -104,7 +104,7 @@ const Footer = () => {
                     sx={Styles.input}
                     placeholder="Enter email here"
                   />
-                  <Box>
+                  <Box sx={Styles.telegramIconContainer}>
                     <TelegramIcon sx={Styles.arrow} />
                   </Box>
                 </Box>
